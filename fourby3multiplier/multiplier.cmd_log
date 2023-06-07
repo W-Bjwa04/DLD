@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "E:/fpga/fourby3multiplier/multiplier.xst" -ofn "E:/fpga/fourby3multiplier/multiplier.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim multiplier.ngc multiplier_synthesis.v 
+xst -intstyle ise -ifn "E:/fpga/fourby3multiplier/multiplier.xst" -ofn "E:/fpga/fourby3multiplier/multiplier.syr" 

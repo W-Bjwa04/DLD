@@ -1,0 +1,29 @@
+Command line:
+   tbgatelevel_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  56345
+
+Fri May 19 12:54:25 2023
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 5149.89 Meg
+
+ Total Signals          : 16
+ Total Nets             : 21
+ Total Signal Drivers   : 10
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 12
+ Total Traceable Variables  : 19
+ Total Scalar Nets and Variables : 105
+Total Line Count : 17
+
+ Total Simulation Time: 0.0625 sec
+
+ Current Memory Usage: 4678.03 Meg
+
+Fri May 19 13:07:26 2023
+

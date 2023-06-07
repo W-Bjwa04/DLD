@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "E:/fpga/Task_Lab_5/TB_STRUCTURAL_LEVEL_isim_beh.exe" -prj "E:/fpga/Task_Lab_5/TB_STRUCTURAL_LEVEL_beh.prj" "work.TB_STRUCTURAL_LEVEL" "work.glbl" 

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "E:/fpga/OneToFourDemux/TestDemux_isim_beh.exe" -prj "E:/fpga/OneToFourDemux/TestDemux_beh.prj" "work.TestDemux" "work.glbl" 

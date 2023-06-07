@@ -1,0 +1,29 @@
+Command line:
+   TB_DATAFLOW_LEVEL_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  53336
+
+Thu Apr 06 14:26:34 2023
+
+
+ Elaboration Time: 0.015625 sec
+
+ Current Memory Usage: 5149.74 Meg
+
+ Total Signals          : 30
+ Total Nets             : 29
+ Total Signal Drivers   : 21
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 23
+ Total Traceable Variables  : 26
+ Total Scalar Nets and Variables : 117
+Total Line Count : 23
+
+ Total Simulation Time: 0.046875 sec
+
+ Current Memory Usage: 5149.74 Meg
+
+Thu Apr 06 14:27:00 2023
+

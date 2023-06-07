@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "E:/fpga/HalfAdder/tb_paramitirized_isim_beh.exe" -prj "E:/fpga/HalfAdder/tb_paramitirized_beh.prj" "work.tb_paramitirized" "work.glbl" 

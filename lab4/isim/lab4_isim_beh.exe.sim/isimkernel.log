@@ -1,0 +1,10 @@
+Command line:
+   lab4_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  56582
+
+Thu May 11 14:01:05 2023
+
+
+ Elaboration Time: 0.078125 sec

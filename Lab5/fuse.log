@@ -1,0 +1,13 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o E:/fpga/Lab5/tb_isim_beh.exe -prj E:/fpga/Lab5/tb_beh.prj work.tb work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "E:/fpga/Lab5/lab_5.v" into library work
+Analyzing Verilog file "E:/fpga/Lab5/tb.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:267 - "E:/fpga/Lab5/tb.v" Line 41: Cannot find port out on this module
+ERROR:HDLCompiler:25 - "E:/fpga/Lab5/tb.v" Line 50: Module <lab_5> does not have a port named <out>.
+WARNING:HDLCompiler:1016 - "E:/fpga/Lab5/tb.v" Line 41: Port out1 is not connected to this instance
+ERROR:Simulator:778 - Static elaboration of top level Verilog design unit(s) in library work failed

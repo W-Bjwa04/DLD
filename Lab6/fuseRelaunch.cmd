@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "E:/fpga/Lab6/behaviouraltb_isim_beh.exe" -prj "E:/fpga/Lab6/behaviouraltb_beh.prj" "work.behaviouraltb" "work.glbl" 

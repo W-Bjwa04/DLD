@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "E:/fpga/TwoByTwoMultiplier/StructuralCode.xst" -ofn "E:/fpga/TwoByTwoMultiplier/StructuralCode.syr" 

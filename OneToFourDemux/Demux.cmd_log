@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "E:/fpga/OneToFourDemux/Demux.xst" -ofn "E:/fpga/OneToFourDemux/Demux.syr" 

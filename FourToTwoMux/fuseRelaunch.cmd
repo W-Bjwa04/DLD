@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "E:/fpga/FourToTwoMux/MuxTestBench_isim_beh.exe" -prj "E:/fpga/FourToTwoMux/MuxTestBench_beh.prj" "work.MuxTestBench" "work.glbl" 

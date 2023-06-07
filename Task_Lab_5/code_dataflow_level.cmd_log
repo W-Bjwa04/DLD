@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "E:/fpga/Task_Lab_5/code_dataflow_level.xst" -ofn "E:/fpga/Task_Lab_5/code_dataflow_level.syr" 

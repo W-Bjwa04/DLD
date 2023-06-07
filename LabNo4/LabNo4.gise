@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="LabNo4.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ReducedPOS.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="ReducedPOS.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="ReducedPOS.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ReducedPOSTB_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ReducedSOP.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="ReducedSOP.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="ReducedSOP.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ReducesSOPTB_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="SOPTB_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="SOPTB_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="SOPTB_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="SOPTB_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1684417446" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1684417446">
+      <status xil_pn:value="SuccessfullyRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1684418074" xil_pn:in_ck="487122500384543589" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1684418074">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ReducedPOS.v"/>
+      <outfile xil_pn:name="ReducedPOSTB.v"/>
+      <outfile xil_pn:name="ReducedSOP.v"/>
+      <outfile xil_pn:name="ReducesSOPTB.v"/>
+      <outfile xil_pn:name="SOP.v"/>
+      <outfile xil_pn:name="SOPTB.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1684417457" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="5651180921356726207" xil_pn:start_ts="1684417457">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+    </transform>
+    <transform xil_pn:end_ts="1684417457" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-8220929483495193749" xil_pn:start_ts="1684417457">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+    </transform>
+    <transform xil_pn:end_ts="1684417457" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="9155683939651560278" xil_pn:start_ts="1684417457">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+    </transform>
+    <transform xil_pn:end_ts="1684417457" xil_pn:in_ck="4319772333381587266" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1684417457">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputAdded"/>
+      <outfile xil_pn:name="SOP.v"/>
+      <outfile xil_pn:name="SOPTB.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1684417460" xil_pn:in_ck="4319772333381587266" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-8129288076475917266" xil_pn:start_ts="1684417457">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="SOPTB_beh.prj"/>
+      <outfile xil_pn:name="SOPTB_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1684417460" xil_pn:in_ck="2179013629823196215" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="6098375442068338065" xil_pn:start_ts="1684417460">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="SOPTB_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+    </transform>
+  </transforms>
+
+</generated_project>

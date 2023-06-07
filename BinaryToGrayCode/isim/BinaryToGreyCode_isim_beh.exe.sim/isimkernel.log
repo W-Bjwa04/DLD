@@ -1,0 +1,29 @@
+Command line:
+   BinaryToGreyCode_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  54139
+
+Thu Mar 30 16:40:58 2023
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 5149.76 Meg
+
+ Total Signals          : 21
+ Total Nets             : 21
+ Total Signal Drivers   : 10
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 11
+ Total Traceable Variables  : 18
+ Total Scalar Nets and Variables : 101
+Total Line Count : 15
+
+ Total Simulation Time: 0.0625 sec
+
+ Current Memory Usage: 4677.9 Meg
+
+Thu Mar 30 17:21:47 2023
+

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "E:/fpga/PerityGenerator/testtb_isim_beh.exe" -prj "E:/fpga/PerityGenerator/testtb_beh.prj" "work.testtb" "work.glbl" 

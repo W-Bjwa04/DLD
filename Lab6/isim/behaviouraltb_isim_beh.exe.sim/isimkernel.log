@@ -1,0 +1,10 @@
+Command line:
+   behaviouraltb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  1
+     -socket  56443
+
+Fri May 19 13:07:03 2023
+
+
+ Elaboration Time: 0.046875 sec
