@@ -1,0 +1,11 @@
+#-----------------------------------------------------------
+# PlanAhead v14.5 (64-bit)
+# Build 247527 by xbuild on Mon Mar 25 17:13:07 MDT 2013
+# Start of session at: Sat Jun 03 18:43:06 2023
+# Process ID: 6840
+# Log file: D:/aaaaa/Lab_10_Seq/planAhead_run_5/planAhead.log
+# Journal file: D:/aaaaa/Lab_10_Seq/planAhead_run_5/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/aaaaa/Lab_10_Seq/pa.fromHdl.tcl
+update_compile_order -fileset sim_1

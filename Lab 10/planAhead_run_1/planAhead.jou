@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# PlanAhead v14.5 (64-bit)
+# Build 247527 by xbuild on Mon Mar 25 17:13:07 MDT 2013
+# Start of session at: Fri Jun 02 19:53:47 2023
+# Process ID: 1716
+# Log file: D:/aaaaa/Lab_10_Seq/planAhead_run_1/planAhead.log
+# Journal file: D:/aaaaa/Lab_10_Seq/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/aaaaa/Lab_10_Seq/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+set_property package_pin "" [get_ports [list  clk]]
+startgroup
+set_property package_pin G18 [get_ports clk]
+endgroup
+startgroup
+set_property package_pin H18 [get_ports in]
+endgroup
+set_property package_pin "" [get_ports [list  s_out]]
+startgroup
+set_property package_pin K18 [get_ports rst]
+endgroup

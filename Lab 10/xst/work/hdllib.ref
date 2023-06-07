@@ -1,0 +1,6 @@
+MO test_pattern NULL test_pattern.v vlg49/test__pattern.bin 1685789685
+MO dff NULL dff.v vlg28/dff.bin 1685789685
+MO logicA NULL logicA.v vlg17/logic_a.bin 1685789685
+MO logicB NULL logicB.v vlg18/logic_b.bin 1685789685
+MO main NULL main.v vlg2D/main.bin 1685789685
+MO clk_dvsr NULL clk_dvsr.v vlg54/clk__dvsr.bin 1685789685

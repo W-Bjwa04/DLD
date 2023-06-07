@@ -1,0 +1,35 @@
+#-----------------------------------------------------------
+# PlanAhead v14.5 (64-bit)
+# Build 247527 by xbuild on Mon Mar 25 17:13:07 MDT 2013
+# Start of session at: Fri Jun 02 20:14:40 2023
+# Process ID: 2108
+# Log file: D:/aaaaa/Lab_10_Seq/planAhead_run_3/planAhead.log
+# Journal file: D:/aaaaa/Lab_10_Seq/planAhead_run_3/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/aaaaa/Lab_10_Seq/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin G18 [get_ports clk]
+endgroup
+set_property is_loc_fixed false [get_ports [list  clk]]
+save_constraints
+startgroup
+set_property package_pin B8 [get_ports clk]
+endgroup
+set_property is_loc_fixed false [get_ports [list  clk]]
+set_property is_loc_fixed false [get_ports [list  in]]
+set_property is_loc_fixed true [get_ports [list  clk]]
+set_property is_loc_fixed true [get_ports [list  in]]
+save_constraints
+startgroup
+set_property package_pin K18 [get_ports rst]
+endgroup
+set_property is_loc_fixed false [get_ports [list  rst]]
+save_constraints
+startgroup
+set_property package_pin H13 [get_ports rst]
+endgroup
+set_property is_loc_fixed false [get_ports [list  rst]]
+set_property is_loc_fixed true [get_ports [list  rst]]
+save_constraints

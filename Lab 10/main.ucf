@@ -1,0 +1,10 @@
+
+
+NET "s_out" LOC = J14;
+NET "Y" LOC = J15;
+
+# PlanAhead Generated physical constraints 
+
+NET "clk" LOC = B8;
+NET "in" LOC = H18;
+NET "rst" LOC = H13;

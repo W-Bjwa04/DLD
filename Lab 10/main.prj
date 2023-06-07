@@ -1,0 +1,6 @@
+verilog work "test_pattern.v"
+verilog work "logicB.v"
+verilog work "logicA.v"
+verilog work "dff.v"
+verilog work "clk_dvsr.v"
+verilog work "main.v"

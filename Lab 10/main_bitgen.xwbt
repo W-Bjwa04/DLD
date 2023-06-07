@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\aaaaa\Lab_10_Seq\main.ncd
+OUTFILE=D:\aaaaa\Lab_10_Seq\main.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=D:\aaaaa\Lab_10_Seq
+LICENSE=WebPack
+USER_INFO=__0_0_0

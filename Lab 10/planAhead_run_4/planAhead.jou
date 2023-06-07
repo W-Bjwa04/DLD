@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# PlanAhead v14.5 (64-bit)
+# Build 247527 by xbuild on Mon Mar 25 17:13:07 MDT 2013
+# Start of session at: Sat Jun 03 17:44:47 2023
+# Process ID: 10004
+# Log file: D:/aaaaa/Lab_10_Seq/planAhead_run_4/planAhead.log
+# Journal file: D:/aaaaa/Lab_10_Seq/planAhead_run_4/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/aaaaa/Lab_10_Seq/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+set_property iostandard LVCMOS25 [get_ports [list in]]
+set_property iostandard LVCMOS25 [get_ports [list s_out]]
+startgroup
+set_property package_pin B8 [get_ports clk]
+endgroup
+set_property is_loc_fixed false [get_ports [list  rst]]
+startgroup
+set_property package_pin H13 [get_ports rst]
+endgroup

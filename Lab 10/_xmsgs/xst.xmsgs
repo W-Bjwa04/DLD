@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;main.v&quot; line 26 </arg>Connection to input port &apos;<arg fmt="%s" index="2">add</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="Xst" num="863" delta="old" >&quot;<arg fmt="%s" index="1">logicA.v</arg>&quot; line <arg fmt="%d" index="2">22</arg>: Name conflict (<arg fmt="%s" index="3">&lt;b&gt; and &lt;B&gt;, renaming b as b_rnm0</arg>).
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">b_rnm0</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">Bt</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">At</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="524" delta="old" >All outputs of the instance &lt;<arg fmt="%s" index="1">LA</arg>&gt; of the block &lt;<arg fmt="%s" index="2">logicA</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="3">main</arg>&gt;.
+This instance will be removed from the design along with all underlying logic
+</msg>
+
+<msg type="warning" file="Xst" num="524" delta="old" >All outputs of the instance &lt;<arg fmt="%s" index="1">LB</arg>&gt; of the block &lt;<arg fmt="%s" index="2">logicB</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="3">main</arg>&gt;.
+This instance will be removed from the design along with all underlying logic
+</msg>
+
+<msg type="warning" file="Xst" num="524" delta="old" >All outputs of the instance &lt;<arg fmt="%s" index="1">FA</arg>&gt; of the block &lt;<arg fmt="%s" index="2">dff</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="3">main</arg>&gt;.
+This instance will be removed from the design along with all underlying logic
+</msg>
+
+<msg type="warning" file="Xst" num="524" delta="old" >All outputs of the instance &lt;<arg fmt="%s" index="1">FB</arg>&gt; of the block &lt;<arg fmt="%s" index="2">dff</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="3">main</arg>&gt;.
+This instance will be removed from the design along with all underlying logic
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">TP/seq_d</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">main</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+
